@@ -1,0 +1,28 @@
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration will be overriden by the Spring profile you use,
+# for example application-dev.yml if you use the "dev" profile.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+security:
+  user:
+    password: test
+
+myapp:
+  swagger:
+    title: Secure REST
+    description: Secure REST exmaple API documentation
+    version: 0.0.1
+    termsOfServiceUrl:
+    contactName: Iain Coffield
+    contactUrl:
+    contactEmail:
+    license:
+    licenseUrl:
