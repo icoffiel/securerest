@@ -1,0 +1,11 @@
+# Intellij
+.idea/
+
+# Git
+gradle/
+.gradle
+gradlew
+gradlew.bat
+
+# General
+build
